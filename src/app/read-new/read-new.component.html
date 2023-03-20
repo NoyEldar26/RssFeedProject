@@ -1,0 +1,23 @@
+<div class="readNew">
+    <mat-card class="matCard">
+        <mat-card-header>
+            <mat-card-title>
+                <div [innerHTML]="newItem.title"></div>
+            </mat-card-title>
+            <mat-card-subtitle>{{ newItem.published }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>מזהה: {{newItem.id}} </p>
+            <p>זמן עדכון: {{newItem.updated }} </p>
+            <p>תוכן הכתבה: </p>
+            <div [innerHTML]="newItem.content"></div>
+
+
+        </mat-card-content>
+        <mat-nav-list>
+            <a mat-list-item class="linkStyle" href="{{ newItem.link }}" target="_blank">
+                לכתבה המלאה
+            </a>
+        </mat-nav-list>
+    </mat-card>
+</div>

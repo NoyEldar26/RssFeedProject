@@ -1,0 +1,9 @@
+<div class="full-page">
+    <div class="inline left-side">
+        <app-read-new *ngIf="hasSelectedItem" [newItem]="selectedItem"></app-read-new>
+    </div>
+    <div class="inline right-side">
+        <app-list-news [news]="news" (selectedItem)="onSelectedNews($event)"
+            (isRefresh)="onRefresh($event)"></app-list-news>
+    </div>
+</div>

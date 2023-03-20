@@ -1,0 +1,17 @@
+<div class="direction">
+
+    <button mat-raised-button (click)="onRefresh()" color="primary">רענן נתונים</button>
+
+    <div *ngFor="let select of news">
+        <mat-card class="matCard" (click)="onSelect(select)">
+            <mat-card-header class="headerCard">
+                <mat-card-title class="matTitle">
+                    <div [innerHTML]="select.title"></div>
+                </mat-card-title>
+                <mat-card-subtitle>{{ select.published }}</mat-card-subtitle>
+            </mat-card-header>
+        </mat-card>
+    </div>
+
+
+</div>

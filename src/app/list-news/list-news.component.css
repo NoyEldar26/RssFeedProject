@@ -1,0 +1,48 @@
+.marginL-20 {
+    margin-left: 20px;
+}
+
+th {
+    padding: 10px 20px 10px 10px;
+}
+
+.select-view-list {
+    padding: 10px 10px 10px 10xp;
+    border: solid grey 2px;
+}
+
+.padding-vi {
+    padding: 20px;
+    direction: rtl;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.direction {
+    direction: rtl;
+
+}
+
+.matListItem {
+    border: solid 2px #000;
+}
+
+.buttonStyle {
+    display: table-cell;
+    max-width: 600px;
+}
+
+.headerCard {
+
+    height: 70px;
+}
+
+.item {
+    height: 70px;
+}
+
+.matTitle {
+    font-size: medium;
+}

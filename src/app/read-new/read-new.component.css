@@ -1,0 +1,13 @@
+.matCard {
+    direction: rtl;
+    display: inline-flex;
+    margin-top: 30px
+}
+
+.linkStyle {
+    font-style: italic bold red;
+}
+
+.readNew {
+    position: center;
+}

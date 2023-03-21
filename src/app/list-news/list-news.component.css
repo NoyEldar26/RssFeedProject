@@ -35,7 +35,7 @@ th {
 }
 
 .headerCard {
-
+    flex-basis: fit-content;
     height: 70px;
 }
 
